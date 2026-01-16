@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Zekası ve Raporlama | Statix</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+    <nav class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-black text-blue-600 tracking-tighter flex items-center gap-2">
+                <i class="fas fa-chart-pie"></i> STATIX
+            </a>
+            <div class="hidden md:flex space-x-6 font-semibold items-center">
+                <a href="index.html" class="hover:text-blue-600 transition">Ana Sayfa</a>
+                <a href="hakkimizda.html" class="hover:text-blue-600 transition">Hakkımızda</a>
+                <a href="blog.html" class="hover:text-blue-600 transition">Blog & Haberler</a>
+                <a href="index.html#iletisim" class="bg-blue-600 text-white px-6 py-2.5 rounded-full hover:bg-blue-700 transition shadow-lg">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative py-24 bg-gradient-to-r from-blue-600 to-cyan-500 text-white overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h1 class="text-4xl md:text-6xl font-black italic mb-6">Veriyi Görselleştirin, <br>Hızlı Karar Alın</h1>
+            <p class="text-xl text-blue-50 max-w-3xl mx-auto leading-relaxed italic">
+                Karmaşık Excel tablolarından kurtulun. Statix ile tüm finansal süreçlerinizi anlık dashboardlar üzerinden takip edin.
+            </p>
+        </div>
+    </header>
+
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-blue-900 mb-6 italic">İşletmenizin Dijital Röntgeni</h2>
+                    <p class="text-gray-600 text-lg mb-8 italic">
+                        Muhasebe kayıtları tek başlarına sadece birer sayıdır. Biz bu sayıları yaşayan, dinamik ve interaktif görsel raporlara dönüştürüyoruz. Hangi departmanın verimli olduğunu, hangi ürünün kâr marjının düştüğünü saniyeler içinde görün.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
+                            <div class="bg-blue-600 text-white p-2 rounded-lg"><i class="fas fa-bolt"></i></div>
+                            <span class="font-bold">Gerçek Zamanlı Veri Akışı</span>
+                        </li>
+                        <li class="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
+                            <div class="bg-blue-600 text-white p-2 rounded-lg"><i class="fas fa-mobile-alt"></i></div>
+                            <span class="font-bold">Mobil Uyumlu Yönetici Panelleri</span>
+                        </li>
+                        <li class="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
+                            <div class="bg-blue-600 text-white p-2 rounded-lg"><i class="fas fa-sync"></i></div>
+                            <span class="font-bold">Otomatik ERP ve Banka Entegrasyonu</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" 
+                         class="rounded-3xl shadow-2xl border-8 border-white transform rotate-3 hover:rotate-0 transition duration-500" alt="Dashboard Örneği">
+                    <div class="absolute -bottom-6 -left-6 bg-blue-900 text-white p-6 rounded-2xl shadow-xl">
+                        <span class="text-3xl font-black">+%40</span>
+                        <p class="text-xs italic opacity-80">Karar Verme Hızında Artış</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-blue-900 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12 italic">Kullandığımız Teknolojiler</h2>
+            <div class="flex flex-wrap justify-center gap-12 opacity-80">
+                <div class="flex flex-col items-center"><i class="fab fa-microsoft text-5xl mb-2"></i><span>Power BI</span></div>
+                <div class="flex flex-col items-center"><i class="fas fa-table text-5xl mb-2"></i><span>Tableau</span></div>
+                <div class="flex flex-col items-center"><i class="fas fa-project-diagram text-5xl mb-2"></i><span>Qlik</span></div>
+                <div class="flex flex-col items-center"><i class="fab fa-python text-5xl mb-2"></i><span>Streamlit</span></div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
